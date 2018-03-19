@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dminh.luyenthidai.Activities.AboutActivity">
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/tv_game_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:shadowColor="@android:color/holo_green_dark"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="5"
+        android:text="LUYỆN THI ĐẬU TỐT NGHIỆP"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="50dp"
+        android:textStyle="" />
+
+    <TextView
+        android:id="@+id/tv_ver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Version: 1.0.0"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Website: https://vtc.edu.vn"
+        android:autoLink="all"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Liên Hệ:android.apps@vtc.edu.vn"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logo"
+        android:layout_marginTop="100dp"/>
+
+
+</LinearLayout>
+
